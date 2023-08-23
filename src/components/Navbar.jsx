@@ -15,7 +15,7 @@ const Navbar = () => {
 	return (
 		<div className='navbar fixed z-10 bg-neutral text-neutral-content'>
 			<div className='containerWrap flex justify-between'>
-				<a className='btn btn-ghost normal-case text-xl'>Chat</a>
+				<a className='btn btn-ghost normal-case text-xl'>ChatApp</a>
 				{currentUser ? <button onClick={handleLogout}>Logout</button> : ''}
 			</div>
 		</div>
